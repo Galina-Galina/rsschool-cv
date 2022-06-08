@@ -53,4 +53,7 @@ const dataReverse = data => {
 
 ---
 
-
+### Languages
+* Russian - Native
+* English - (in progress)
+---
