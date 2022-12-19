@@ -1,0 +1,162 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(251, 245, 245);
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: rgb(101, 180, 219);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header {
+  background-color: rgb(52, 50, 50);
+  color: rgb(36, 35, 35);
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.photo {
+  margin: 0 20px 20px 0;
+  width: 320px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.Myself {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.Aboutme {
+  margin: 10px 0;
+}
+
+.skills {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.Skills__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Contacts {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.contact__wrapper {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact__block {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.contact__image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact__image_github {
+  background-image: url('github.png');
+}
+
+.contact__image_telegram {
+  background-image: url('telegram.png');
+}
+
+.contact__image_email {
+  background-image: url('email.png');
+}
+
+.contact__text {
+  font-size: 18px;
+}
+
+.contact__link {
+  color: #333;
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.section-link, .nav-link, .date {
+  display: inline-block;
+  vertical-align: middle;
+}
+.date {
+  font-weight: bold;
+}
+.languages__list {
+  color: rgb(101, 180, 219)
+}
+
+
+
