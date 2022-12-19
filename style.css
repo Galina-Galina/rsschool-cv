@@ -8,6 +8,9 @@ body {
   justify-content: space-between;
   
 }
+html {
+  scroll-behavior: smooth; 
+}
 body {
   background-color: rgb(251, 245, 245);
 }
@@ -163,6 +166,11 @@ img {
 }
 .nav-item:hover {
   background-color: rgb(248, 245, 245);
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
 
 
