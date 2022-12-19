@@ -47,12 +47,12 @@ header {
   padding: 10px;
 }
 
-.nav-link {
+.nav_link {
   color: #fff;
   text-decoration: none;
 }
 
-.nav-link:hover {
+.nav_link:hover {
   background-color: #fff;
   color: #333;
 }
