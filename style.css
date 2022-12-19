@@ -4,6 +4,9 @@ body {
   
   margin: 0;
   padding: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
 body {
   background-color: rgb(251, 245, 245);
@@ -145,6 +148,7 @@ img {
   justify-content: space-between;
   align-items: center;
   margin: 20px;
+  flex-direction: column;
 }
 
 .section-link, .nav_link, .date {
