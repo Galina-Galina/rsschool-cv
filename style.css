@@ -47,12 +47,12 @@ header {
   padding: 10px;
 }
 
-.nav-link {
+.nav_link {
   color: #fff;
   text-decoration: none;
 }
 
-.nav-link:hover {
+.nav_link:hover {
   background-color: #fff;
   color: #333;
 }
@@ -147,7 +147,7 @@ img {
   margin: 20px;
 }
 
-.section-link, .nav-link, .date {
+.section-link, .nav_link, .date {
   display: inline-block;
   vertical-align: middle;
 }
@@ -156,6 +156,9 @@ img {
 }
 .languages__list {
   color: rgb(101, 180, 219)
+}
+.nav-item:hover {
+  background-color: rgb(248, 245, 245);
 }
 
 
